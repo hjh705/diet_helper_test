@@ -17,7 +17,7 @@ public class SqlSessionTemplate {
     private static SqlSessionFactory factory;
 
     static {
-        String resource = "mybatis-config.xml"; //  src/main/resources/mybatis-config.xml
+        String resource = "configs/mybatis-config.xml"; //  src/main/resources/mybatis-config.xml
 
         //Resource객체를 통해 resource파일로부터 스트림을 생성하여 값을 가져옴
         try(InputStream is = Resources.getResourceAsStream(resource)){
